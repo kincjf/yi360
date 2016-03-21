@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editCmdText"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/buttonEnter"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Enter"/>
+
+        <Button
+            android:id="@+id/buttonMenu"
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:text="Menu"/>
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:id="@+id/scrollViewContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+    <TextView
+        android:id="@+id/textViewContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+    </ScrollView>
+</LinearLayout>
